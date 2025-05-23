@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Memory Museum</title>
   <style>
     body {
-      font-family: 'Georgia', serif;
-      background-color: #fdf6e3;
-      color: #333;
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
+      font-family: sans-serif;
+      background-color: #fffaf0;
+      color: #222;
+      padding: 2em;
     }
     h1 {
       text-align: center;
+      margin-bottom: 1em;
     }
-    .intro {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    li {
+      margin: 1em 0;
+      padding: 1em;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    li:hover {
+      transform: scale(1.02);
+    }
+    a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .date {
+      display: block;
+      font-style: italic;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 0.3em;
     }
   </style>
 </head>
 <body>
-  <h1>🖼️ Memory Museum</h1>
-  <div class="intro">
-    <p>Welcome to my digital archive. This is where I collect moments, reflect on time, and build a home out of memories.</p>
-    <p><a href="memory-001.html">🖼️ View Memory #1</a></p>
-    <p><a href="zerospace-03-01-2020.html">🌀 View Memory #2: Zerospace</a></p>
-
-<p>More to come soon...</p>
-  </div>
+  <h1>Nova's Memory Museum</h1>
+  <ul>
+    <li>
+      <a href="zerospace-03-01-2020.html">Zerospace (NYC)</a>
+      <span class="date">March 1, 2020</span>
+    </li>
+    <li>
+      <a href="virginia-beach-2020.html">Virginia Beach Trip</a>
+      <span class="date">August 14–16, 2020</span>
+    </li>
+  </ul>
 </body>
 </html>
-
-Commit new file
-[add homepage]
