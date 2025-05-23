@@ -15,17 +15,21 @@
       margin-bottom: 1em;
     }
     .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-    }
-    .gallery img {
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
     .caption {
       text-align: center;
       margin-top: 2em;
